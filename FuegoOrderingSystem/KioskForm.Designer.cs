@@ -260,7 +260,7 @@ namespace FuegoOrderingSystem
             this.pnlSummary.PerformLayout();
             this.ResumeLayout(false);
         }
-
+        // 
         private System.Windows.Forms.Panel pnlMenu;
         private System.Windows.Forms.Label lblMenuTitle;
         private System.Windows.Forms.PictureBox pbItem1;
