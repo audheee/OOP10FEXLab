@@ -8,8 +8,7 @@ The application consists of a Windows Forms interface connecting to a MySQL data
 
 ## Contributors
 * Audhee Lorence Edolmo
-* Jordan [Last Name Placeholder]
-* [Third Member Name Placeholder]
+* Jordan Rameses Mamaril
 
 ## Setup Instructions
 1. Open `OOP10FEXLab.sln` in Visual Studio.
