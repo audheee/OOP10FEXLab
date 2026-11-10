@@ -26,7 +26,7 @@ namespace FuegoOrderingSystem
             try { pbItem2.ImageLocation = System.IO.Path.Combine(basePath, "HUNGARIANSAUSAGE.jpg"); } catch {}
             try { pbItem3.ImageLocation = System.IO.Path.Combine(basePath, "PADKRAPAO.jpg"); } catch {}
             try { pbItem4.ImageLocation = System.IO.Path.Combine(basePath, "PORKRIBS.jpg"); } catch {}
-            try { pbItem5.ImageLocation = System.IO.Path.Combine(basePath, "PORKBBQ.jpg"); } catch {}
+            try { pbItem5.ImageLocation = System.IO.Path.Combine(basePath, "PORK BBQ.jpg"); } catch {}
         }
 
         private void LoadPackages()
@@ -61,7 +61,7 @@ namespace FuegoOrderingSystem
             string itemName = "";
             if (sender == pbItem1 || sender == lblItem1) itemName = "Smoked BBQ Wings";
             else if (sender == pbItem2 || sender == lblItem2) itemName = "Hungarian Sausage";
-            else if (sender == pbItem3 || sender == lblItem3) itemName = "PadKrapao BBQ";
+            else if (sender == pbItem3 || sender == lblItem3) itemName = "Pad Krapao BBQ";
             else if (sender == pbItem4 || sender == lblItem4) itemName = "Low & Slow Pork Ribs";
             else if (sender == pbItem5 || sender == lblItem5) itemName = "Pork BBQ Skewers";
             
